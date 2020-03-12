@@ -62,7 +62,7 @@ This project was built with Javascript
 
 ## Live Version
 
-- You can view the app [Here]()
+- You can view the app [Here](https://rawcdn.githack.com/WCanirinka/Restaurant-page/a6c9b0044f431c9318737c81b98394a2eba9298b/dist/index.html)
 
 <!-- ROADMAP -->
 ## Roadmap
