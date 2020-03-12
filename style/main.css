@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bellota Text', cursive;
+  background-color: 204;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bellota', cursive;
+}
+
+#container {
+  padding: 600px;
+  margin: 15px;
+  background-position: center;
+}
+/*# sourceMappingURL=main.css.map */
