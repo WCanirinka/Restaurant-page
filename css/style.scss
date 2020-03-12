@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bellota Text', cursive;
+}
+
+p {
+    font-family: 'Bellota', cursive;
+    font-size: 18px;
+}
+
+li, li:active{
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline rgb(63, 54, 54);
+        cursor: pointer;
+    }
+}
+
+#container {
+    padding: 0;
+    margin: 0;
+    background-image: url('https://images8.design-editor.com/95/9553498/3958%2FB8941A25-F0B3-BA0A-6B8B-E14F2CCD8271.jpg_650');
+    align-items: baseline;
+    background-position: center;
+    height: 100vh;
+    width: 196.3vh;
+    overflow: hidden;
+    
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+div {
+    .logo {
+        margin: 0;
+        padding: 0;
+        font-family: 'Bellota', cursive;
+        color: rgb(95, 6, 80);
+        font-size: 2.5rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .menu {
+        list-style-type: none;
+        display: flex;
+        float: right;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.5rem;
+    }
+
+    .nav-items {
+        margin-left: 9rem;
+        font-size: 1.5rem;
+        color: #fff;
+        &:first-child {
+            margin-left: 2.25rem;
+        }
+    }
+}
+
+div {
+    .content-home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        width: 60%;
+        height: 100%;
+        overflow:  hidden auto;
+        padding: 1rem;
+        margin-top: 100px;
+        margin-left: 300px;
+    }
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: rgb(95, 6, 80);
+    cursor: pointer;
+    font-family: 'Bellota', cursive;
+    margin-top: 2rem;
+    color: #fff;
+
+    &:hover {
+        background-color: #fff;
+        color: black;
+    }
+}
+
+.menu-sec {
+    width: 100%;
+    margin: 1rem 0;
+    border-bottom: 1px solid rgb(95, 6, 80);
+}
+
+.food-name {
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    font-family: 'Bellota Text', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.price {
+    display: inline-block;
+    width: 20px;
+    text-align: right;
+    font-family: 'Bellota Text', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.description {
+    text-align: left;
+    margin-top: -0.5rem;
+}
+
+.pic-item {
+    background-image: url('https://mcdn.wallpapersafari.com/medium/72/98/MLrqKy.jpg');
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
