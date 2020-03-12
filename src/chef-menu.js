@@ -9,12 +9,12 @@ const menuChef = [
 
 const renderMenu = () => {
   const contentContainer = document.querySelector('#container');
-  const contentHome = createHtmlElement('div', ['content-home']);
+  const contentHome = createHtmlElement('div', 'content-home');
   menuChef.forEach(item => {
-    const menuDiv = createHtmlElement('div', ['menu-sec']);
-    const foodName = createHtmlElement('p', ['food-name'], item[0]);
-    const price = createHtmlElement('p', ['price'], item[1]);
-    const description = createHtmlElement('p', ['description'], item[2]);
+    const menuDiv = createHtmlElement('div', 'menu-sec');
+    const foodName = createHtmlElement('p', 'food-name', item[0]);
+    const price = createHtmlElement('p', 'price', item[1]);
+    const description = createHtmlElement('p', 'description', item[2]);
 
     menuDiv.appendChild(foodName);
     menuDiv.appendChild(price);

@@ -2,13 +2,13 @@ import createHtmlElement from './create';
 
 const renderHeader = () => {
   const contentContainer = document.querySelector('#container');
-  const navBar = createHtmlElement('nav', ['nav']);
-  const logo = createHtmlElement('p', ['logo'], 'Wilos Restaurant');
-  const menuLi = createHtmlElement('ul', ['menu']);
-  const menuItems = ['Home', 'About Us', 'Contacts', 'Chef Menu'];
+  const navBar = createHtmlElement('nav', 'nav');
+  const logo = createHtmlElement('div', 'logo', 'Wilos Restaurant');
+  const menuLi = createHtmlElement('ul', 'menu');
+  const menuItems = ['Home', 'About Us', 'Chef Menu'];
 
   menuItems.forEach(menu => {
-    const navItems = createHtmlElement('li', ['nav-items', menu]);
+    const navItems = createHtmlElement('li', 'nav-items', menu);
     menuLi.appendChild(navItems);
   });
 

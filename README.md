@@ -7,7 +7,7 @@
   <p align="center">
     Webpack and ES6 Modules
     <br />
-    <a href="https://github.com/WCanirinka/Restaurant-Page"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/WCanirinka/Restaurant-Page.git"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·

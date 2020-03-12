@@ -33,7 +33,7 @@ home();
 document.addEventListener('click', e => {
   if (e.target.innerText === 'Home') home();
 
-  if (e.target.innerText === 'Menu' || e.target.innerText === 'Go to Menu') menu();
+  if (e.target.innerText === 'Chef Menu' || e.target.innerText === 'Go to Menu') menu();
 
   if ((e.target.innerText === 'About Us')) about();
 });

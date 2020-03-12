@@ -1,9 +1,7 @@
-const createHtmlElement = (type, className = [], textContent = '') => {
+const createHtmlElement = (type, className, textContent = '') => {
   const element = document.createElement(type);
 
-  className.forEach(className => {
-    element.classList.add(className);
-  });
+  element.classList.add(className);
 
   if (textContent !== '') element.innerText = textContent;
 
