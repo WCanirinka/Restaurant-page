@@ -77,6 +77,8 @@ Wilfried Canirinka
 
 * [Twitter](https://twitter.com/WCanirinka)
 
+* [LinkedIn](https://www.linkedin.com/in/wilfried-canirinka-884ab0b6/)
+
 Project Link: [Project repo](https://github.com/WCanirinka/Restaurant-Page)
 
 <!-- MARKDOWN LINKS & IMAGES -->
